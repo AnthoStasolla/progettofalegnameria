@@ -1,0 +1,11 @@
+.container-firstpanel {
+  padding: 18px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.text-panel1 {
+  font-size: 26px;
+  font-family: Lucida sans;
+  text-shadow: 2px 5px 0px #331b06;
+}

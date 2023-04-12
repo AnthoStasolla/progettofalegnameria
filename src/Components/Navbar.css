@@ -1,0 +1,130 @@
+.navbar-fixed-top {
+  position: fixed !important;
+  z-index: 3;
+}
+
+.navigation {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.brand-name {
+  text-decoration: none;
+  color: #fff5ee;
+  font-size: 1.4rem;
+  margin-left: 2px;
+  font-family: "Lucida Console", monospace;
+}
+.brand-name:hover {
+  text-decoration: none;
+  color: #e47a19;
+  font-size: 1.1rem;
+  margin-left: 2px;
+  font-family: "Lucida Console", monospace;
+  text-shadow: 1px 1px 8px #e47a19;
+}
+
+.icon-navbar {
+  margin-bottom: 2px;
+}
+.navigation-menu {
+  margin-left: auto;
+}
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #fff5ee;
+}
+.navigation-menu li:hover {
+  background-color: rgba(130, 63, 38, 1);
+  border-radius: 10px;
+  transition: all 0.1s linear;
+  color: #fff5ee;
+  text-shadow: 2px 2px 0px black;
+}
+
+.hamburger {
+  border: 0;
+  height: 32px;
+  width: 32px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #f4a460;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  transition: all 1s ease-in-out;
+  transform: rotateZ(180deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+
+.bottone {
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 848px) {
+  .hamburger {
+    display: block;
+  }
+  .bottone:hover {
+    transition: all 0.5s ease;
+    transform: rotateZ(180deg);
+    color: #cfc6c0;
+  }
+  .navigation-menu ul {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding-top: 60px;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    opacity: 0.8;
+    background-color: black;
+    border-top: 1px solid black;
+    display: none;
+    transition: 0.8s;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+    z-index: 1;
+  }
+  .navigation-menu li {
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+    transition: 0.8s;
+  }
+  .navigation-menu li a {
+    color: white;
+    width: 100%;
+    padding: 1.5rem 0;
+    transition: 0.8s;
+  }
+  .navigation-menu li:hover {
+    background-color: rgba(130, 63, 38, 1);
+    opacity: 1;
+  }
+}

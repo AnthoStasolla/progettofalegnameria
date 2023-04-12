@@ -1,0 +1,80 @@
+.container-panel {
+  background-color: grey;
+  font-family: Lucida sans;
+  font-size: bold;
+  text-shadow: 1px 0px 0px black;
+  padding: 25px;
+  width: 100%;
+}
+
+.btn-light {
+  margin-top: 5px;
+  color: whitesmoke;
+  text-shadow: 2px 0px 0px rgba(80, 29, 15, 1);
+  background: linear-gradient(
+    0deg,
+    rgba(213, 92, 40, 1) 55%,
+    rgba(166, 74, 36, 1) 64%,
+    rgba(130, 63, 38, 1) 71%,
+    rgba(80, 29, 15, 1) 81%
+  );
+}
+.btn-light:active,
+.btn-light:hover {
+  color: black;
+  text-shadow: 0px 0px 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(150, 61, 36, 1) 19%,
+    rgba(190, 99, 66, 1) 30%,
+    rgba(190, 99, 66, 1) 39%,
+    rgba(226, 147, 125, 1) 51%
+  );
+}
+
+.section-container {
+  width: 100%;
+  height: 100%;
+  background-color: #d2cbc7;
+}
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-panel {
+  font-family: "Lucida sans";
+  font-size: 25px;
+  text-shadow: 0px 0px 0px black;
+}
+.mini-text {
+  color: #ff8c00;
+  font-size: bold;
+  font-family: "Lucida Console", monospace;
+}
+
+.text-span {
+  font-family: "Lucida sans";
+  font-size: 25px;
+}
+
+@media screen and (max-width: 940px) {
+  .text-panel {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .text-panel {
+    font-size: 10px;
+  }
+  .mini-text {
+    font-size: 15px;
+    font-family: "Lucida Console", monospace;
+  }
+  .text-span {
+    font-family: "Lucida sans";
+    font-size: 15px;
+  }
+}
