@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
-import { SocialBar } from "../links";
 import { useGlobalContext } from "../context";
 import { MdOutlineCarpenter } from "react-icons/md";
 
@@ -52,10 +51,6 @@ const Navbar = () => {
               <a href="/#contact">Contattaci</a>
             </li>
           </ul>
-        </div>
-
-        <div className="social-links">
-          <SocialBar />
         </div>
       </nav>
     </>

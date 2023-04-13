@@ -18,16 +18,17 @@
 .brand-name {
   text-decoration: none;
   color: #fff5ee;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-left: 2px;
-  font-family: "Lucida Console", monospace;
+  font-family: "Mulish", sans-serif;
 }
 .brand-name:hover {
   text-decoration: none;
   color: #e47a19;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   margin-left: 2px;
-  font-family: "Lucida Console", monospace;
+  font-family: "Mulish", sans-serif;
+
   text-shadow: 1px 1px 8px #e47a19;
 }
 
@@ -45,12 +46,15 @@
   list-style-type: none;
   margin: 0 1rem;
   border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 .navigation-menu li a {
   text-decoration: none;
   display: block;
   width: 100%;
   color: #fff5ee;
+  font-family: "Mulish", sans-serif;
 }
 .navigation-menu li:hover {
   background-color: rgba(130, 63, 38, 1);
@@ -101,11 +105,11 @@
     flex-direction: column;
     width: 100%;
     height: 70%;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: black;
     border-top: 1px solid black;
     display: none;
-    transition: 0.8s;
+    transition: 0.3s;
   }
   .navigation-menu.expanded ul {
     display: block;
@@ -115,13 +119,14 @@
     font-size: 23px;
     text-align: center;
     margin: 0;
-    transition: 0.8s;
+    transition: 0.3s;
   }
   .navigation-menu li a {
     color: white;
     width: 100%;
     padding: 1.5rem 0;
-    transition: 0.8s;
+    transition: 0.3s;
+    font-family: "Mulish", sans-serif;
   }
   .navigation-menu li:hover {
     background-color: rgba(130, 63, 38, 1);

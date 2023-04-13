@@ -28,7 +28,7 @@ const Hero = ({ img, children }) => {
               <h1 className="fs-2 mb-2 fst-italic hero-text">
                 FRANCO STASOLLA
               </h1>
-              <h4 className="my-3 hero-text" style={{ fontSize: "18px" }}>
+              <h4 className="my-3 hero-text" style={{ fontSize: "1.3rem" }}>
                 La tua casa su misura,
                 <br /> al millimetro.{" "}
               </h4>

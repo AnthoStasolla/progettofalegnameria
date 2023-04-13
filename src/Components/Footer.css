@@ -4,8 +4,9 @@
   color: #e47a19;
 }
 .text-footer {
-  font-size: 22px;
+  font-size: 1.7rem;
   text-shadow: 2px 2px 0px black;
+  font-family: "Mulish", sans-serif;
 }
 
 .icon-wa {
