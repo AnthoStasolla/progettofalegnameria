@@ -22,104 +22,150 @@ const Gallery = () => {
         id="gallery"
         className="container mt-4 mb-1"
         style={{
-          background:
-            "linear-gradient(292deg, rgba(255,255,255,1) 23%, rgba(228,122,25,1) 45%, rgba(255,255,255,1) 79%)",
+          background: "whitesmoke",
         }}
       >
         <h2
           className="text-center text-form mb-4"
           style={{
-            fontSize: "40px",
-            textShadow: "0px 1px 0px #4f2a09",
+            fontSize: "2.5rem",
+            textShadow: "0px 1px 0px white",
+            fontFamily: "Mulish, sans-serif",
+            fontWeight: "bolder",
           }}
         >
-          Gallery
+          Galleria
         </h2>
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
               src={gallery1}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
 
             <img
               src={gallery9}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto2"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery2}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery12}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery13}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
           </div>
 
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
               src={gallery4}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto3"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
 
             <img
               src={gallery5}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto4"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery3}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery11}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery15}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
           </div>
 
           <div className="col-lg-4 mb-4 mb-lg-0">
             <img
               src={gallery6}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto5"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
 
             <img
               src={gallery7}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto6"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery8}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery10}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
             <img
               src={gallery14}
-              className="w-100 shadow-1-strong rounded mb-4"
+              className="w-100 rounded mb-4"
               alt="foto7"
+              style={{
+                boxShadow: "2px 1px 4px #ff8c00",
+              }}
             />
           </div>
         </div>

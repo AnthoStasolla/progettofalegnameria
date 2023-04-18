@@ -23,8 +23,10 @@ const Footer = () => {
               className="text-center mb-4"
               style={{
                 color: "whitesmoke",
-                fontSize: "40px",
+                fontSize: "2.5rem",
                 textShadow: "3px 3px 2px #4f2a09",
+                fontFamily: "Mulish, sans-serif",
+                fontWeight: "bolder",
               }}
             >
               Contattaci

@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useGlobalContext } from "../context";
-import { MdOutlineCarpenter } from "react-icons/md";
 
 const Navbar = () => {
   const { setIsSidebarOpen, isSidebarOpen } = useGlobalContext();
@@ -10,15 +9,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation navbar navbar-fixed-top bg-dark">
-        <div className="icon-navbar">
-          <MdOutlineCarpenter
-            style={{
-              width: "25px",
-              height: "25px",
-              color: "#f4a460",
-            }}
-          />
-        </div>
         <a href="/" className="brand-name">
           FRANCO STASOLLA
         </a>

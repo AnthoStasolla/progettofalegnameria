@@ -18,14 +18,13 @@
 .brand-name {
   text-decoration: none;
   color: #fff5ee;
-  font-size: 1.7rem;
-  margin-left: 2px;
+  font-size: 1.9rem;
   font-family: "Mulish", sans-serif;
 }
 .brand-name:hover {
   text-decoration: none;
   color: #e47a19;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   margin-left: 2px;
   font-family: "Mulish", sans-serif;
 
@@ -131,5 +130,11 @@
   .navigation-menu li:hover {
     background-color: rgba(130, 63, 38, 1);
     opacity: 1;
+  }
+  .brand-name {
+    text-decoration: none;
+    color: #fff5ee;
+    font-size: 1.6rem;
+    font-family: "Mulish", sans-serif;
   }
 }

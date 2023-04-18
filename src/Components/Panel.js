@@ -6,7 +6,7 @@ import boh from "../assets/immagini/carosel1.jpeg";
 const Panel = () => {
   return (
     <>
-      <div className="text-center border border-1 container-panel">
+      <div className="text-center border border-4 border-warning container-panel">
         <h3>Ambienti irregolari impossibili da arredare?</h3>
         <a
           href="/#contact"
@@ -73,9 +73,9 @@ const Panel = () => {
             backgroundColor: "grey",
           }}
         >
-          <h2 className="text-center p-1 m-1 text-span">
+          <h2 className="text-center p-4 m-2 text-span">
             <span className="mini-text">100%</span> VERO LEGNO.{" "}
-            <span style={{ fontSize: "10px" }}>
+            <span style={{ fontSize: "1rem" }}>
               Utilizziamo solo legno di qualità
             </span>
           </h2>

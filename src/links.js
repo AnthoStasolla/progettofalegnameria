@@ -16,6 +16,8 @@ const socialLinks = [
         className="icon"
         style={{
           color: "violet",
+          width: "30px",
+          height: "30px",
         }}
       />
     ),
@@ -23,7 +25,9 @@ const socialLinks = [
   {
     id: 2,
     url: "https://facebook.com",
-    icon: <FaFacebook className="icon" />,
+    icon: (
+      <FaFacebook className="icon" style={{ width: "30px", height: "30px" }} />
+    ),
   },
   {
     id: 3,
@@ -33,6 +37,8 @@ const socialLinks = [
         className="icon"
         style={{
           color: "red",
+          width: "30px",
+          height: "30px",
         }}
       />
     ),

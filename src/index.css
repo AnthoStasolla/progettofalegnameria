@@ -44,7 +44,7 @@ body {
   font-family: "Montserrat Alternates", sans-serif, "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: "linear-gradient(292deg, rgba(255,255,255,1) 23%, rgba(228,122,25,1) 45%, rgba(255,255,255,1) 79%)" !important;
+  background: whitesmoke !important;
 }
 
 code {
